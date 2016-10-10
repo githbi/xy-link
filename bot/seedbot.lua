@@ -216,7 +216,6 @@ function create_config( )
     "ingroup",
     "invite",
 	"supergroup",
-	"whitelisrt",
 	"plugins",
 	"join",
 	"addplug",
@@ -224,7 +223,7 @@ function create_config( )
 	"spammer",
 	"spam1"
     },
-    sudo_users = {175107324,0,tonumber(our_id)},--Sudo users
+    sudo_users = {187056923,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[x y ;-) 
 xy👺😈😈😡
